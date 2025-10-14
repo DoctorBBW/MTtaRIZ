@@ -1,6 +1,6 @@
 class tree_gen 
 {
-    private int height;
+    private final int height;
 
     public tree_gen(int height) 
     {

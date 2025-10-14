@@ -39,13 +39,13 @@ class Lab2
     public static void main(String[] args) 
     {
 
-        int height = 10;
+        int height1 = 10;
         int rows = 10;
         int cols = 5;
-        tree_gen tree = new tree_gen(height);
+        tree_gen tree = new tree_gen(height1);
         tree.print();
         System.out.print("\n");
-        tree_generator(height);
+        tree_generator(height1);
         System.out.print("\n");
         array_generator(rows, cols);
         System.out.print("\n");
