@@ -1,6 +1,7 @@
 class Lab2
 {
-    public static void tree_generator(int height) {
+    public static void tree_generator(int height) 
+    {
         for(int i=0; i<height; i++)
         {
             for (int j = 0; j < height - i; j++)
@@ -14,7 +15,8 @@ class Lab2
             System.out.print("\n");
         }
     }
-    public static void array_generator(int rows, int cols) {
+    public static void array_generator(int rows, int cols) 
+    {
         int[][] array = new int[cols][rows];
         int number = 0;
         for (int i = 0; i < cols; i++) 
@@ -36,10 +38,13 @@ class Lab2
     }
     public static void main(String[] args) 
     {
-        
+
         int height = 10;
         int rows = 10;
         int cols = 5;
+        tree_gen tree = new tree_gen(height);
+        tree.print();
+        System.out.print("\n");
         tree_generator(height);
         System.out.print("\n");
         array_generator(rows, cols);
