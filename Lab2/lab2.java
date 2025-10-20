@@ -42,12 +42,14 @@ class Lab2
         int height = 10;
         int rows = 10;
         int cols = 5;
+
         tree_gen tree = new tree_gen(height);
+        array_gen array = new array_gen(rows, cols);
+
         tree.print();
         System.out.print("\n");
-        tree_generator(height);
-        System.out.print("\n");
-        array_generator(rows, cols);
+        
+        array.printArray();
         System.out.print("\n");
     }
 }
